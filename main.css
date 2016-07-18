@@ -1,0 +1,37 @@
+/*Banner Image*/
+body {
+  margin: 0;
+}
+
+.bannerimg {
+  height: 700px;
+  width: 1200px;
+}
+
+.banner {
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  width: 90%;
+  background-color: #ccdcff;
+}
+
+
+/*Footer Styling*/
+.footer {
+  position:relative;
+  margin: 0;
+  padding: 30px 20px 20px;
+}
+
+.footerlist {
+  display: inline-block;
+}
+
+.footertitle {
+  font-weight: bold;
+}
+
+.footer li {
+  list-style-type: none;
+}
