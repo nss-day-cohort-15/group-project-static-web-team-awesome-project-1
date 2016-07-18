@@ -8,11 +8,11 @@ var dogs = [
     url: "https://s-media-cache-ak0.pinimg.com/564x/1f/9b/8c/1f9b8c21911543f3de379a9a59584da7.jpg"
   },
   {
-    name: "Champ"
-    color: "Black and white"
-    breed: "Border collie"
-    description: "Shy but playful little guy!"
-    price: 30
+    name: "Champ",
+    color: "Black and white",
+    breed: "Border collie",
+    description: "Shy but playful little guy!",
+    price: 30,
     url: "http://www.pets4homes.co.uk/images/breeds/1/large/41689c8d6fd802cdbd03f7f189acb863.jpg"
   },
   {
@@ -53,7 +53,7 @@ var dogs = [
   breed: "Miniature Poodle",
   description: "Full of energy, smart, easy to train and loves to snuggle.",
   price: 80,
-  URL: "https://www.google.com/search?q=miniature+poodle&espv=2&biw=1441&bih=740&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwjS9q_o3v3NAhWI6SYKHe3NC8UQ_AUIBigB#imgrc=NU45ykxKGOJZLM%3A",
+  url: "http://onlydogbreeds.com/images/puppiesLrg/poodle_toy_puppy.jpg",
 },
 {
   name: "Bruce",
@@ -61,7 +61,7 @@ var dogs = [
   breed: "Bulldog",
   description: "Playful, likes to sleep a lot and is just learning how to climb the stairs!",
   price: 50,
-  URL: "http://cdn.earthporm.com/wp-content/uploads/2015/05/bulldog-puppy-cute-dog-photography-37__605.jpg",
+  url: "http://cdn.earthporm.com/wp-content/uploads/2015/05/bulldog-puppy-cute-dog-photography-37__605.jpg",
 },
 {
   name: "Harley",
@@ -69,7 +69,25 @@ var dogs = [
   breed: "Husky",
   description: "Curious, growing quickly and loves to wrestle.",
   price: 45,
-  URL: "https://s-media-cache-ak0.pinimg.com/564x/86/20/5d/86205db02c7f042eeecd363e6507fb6d.jpg",
+  url: "https://s-media-cache-ak0.pinimg.com/564x/86/20/5d/86205db02c7f042eeecd363e6507fb6d.jpg",
 }
 ];
 
+// Input: One dog
+// Output: DOM has one new dog added to it
+function appendDog(dog) {
+  var dogTile = document.createElement('div');
+  dogTile.className = "tile";
+  dogTile.innerHTML = "<img src='" + dog.url + "'>";
+  dogTile.innerHTML += "<p>Name: " + dog.name + "</p>";
+  dogTile.innerHTML += "<p>Color: " + dog.color + "</p>";
+  dogTile.innerHTML += "<p>Breed: " + dog.breed + "</p>";
+  dogTile.innerHTML += "<p>Description: " + dog.description + "</p>";
+  dogTile.innerHTML += "<p>Price: $" + dog.price + "</p>";
+
+  document.querySelector(".main-content").appendChild(dogTile);
+}
+
+for (var i = 0; i < dogs.length; i++) {
+  appendDog(dogs[i]);
+}

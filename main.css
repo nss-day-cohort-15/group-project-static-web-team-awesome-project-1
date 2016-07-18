@@ -115,15 +115,17 @@ nav img {
   position: relative;
   font-family: sans-serif;
   float: left;
-  margin: 0 1.66%;
+  margin: 1% 1.66%;
   border: 1px solid #C9C9C9;
   box-sizing: border-box;
   min-height: 550px;
 }
 
 .tile img {
-  width: 100%;
-  height: 40%;
+  min-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin: 0 auto;
 }
 
 .tile h2 {
