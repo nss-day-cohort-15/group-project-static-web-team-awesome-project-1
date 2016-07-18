@@ -1,18 +1,27 @@
+/* Wrapper */
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
 /*Banner Image*/
 body {
   margin: 0;
+  background-color: rgb(213,231,242);
 }
 
 .bannerimg {
-  height: 700px;
-  width: 1200px;
+  height: 100%;
+  width: 100%;
 }
 
 .banner {
   margin: 0 auto;
   padding-top: 30px;
   text-align: center;
-  background-color: #ccdcff;
+  width: 90%;
+  /*background-color: #ccdcff;*/
 }
 
 
