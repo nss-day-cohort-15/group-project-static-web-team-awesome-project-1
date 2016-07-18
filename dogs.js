@@ -78,7 +78,7 @@ var dogs = [
 function appendDog(dog) {
   var dogTile = document.createElement('div');
   dogTile.className = "tile";
-  dogTile.innerHTML = "<img src='" + dog.url + "'>";
+  dogTile.innerHTML = "<img src='" + dog.url + "' class='dog-tile'>";
   dogTile.innerHTML += "<p>Name: " + dog.name + "</p>";
   dogTile.innerHTML += "<p>Color: " + dog.color + "</p>";
   dogTile.innerHTML += "<p>Breed: " + dog.breed + "</p>";
