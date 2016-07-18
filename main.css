@@ -48,9 +48,10 @@ body {
 
 nav{
   display: inline-block;
-  width: 80%;
+  width: 90%;
   border-radius: 20px;
-  margin-left: 10%;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
 hr{
