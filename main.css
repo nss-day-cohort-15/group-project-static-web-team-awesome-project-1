@@ -272,6 +272,10 @@ nav img {
   padding-bottom: 40px;
 }
 
+.historypage {
+  width: 90%;
+}
+
 /*.storyimg img{
   height: 80px;
   width: 80px;
@@ -294,6 +298,7 @@ nav img {
 .storyimg-wrapper {
   width: 50% ;
   margin: 0 auto;
+  padding-left: 60px;
 }
 
 .storylist {
