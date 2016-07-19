@@ -224,6 +224,7 @@ nav img {
   margin-left: 5%;
   height: 225px;
   width: 17.5%;
+  float: left;
 }
 
 .name{
