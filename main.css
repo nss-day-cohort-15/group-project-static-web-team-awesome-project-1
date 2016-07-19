@@ -27,22 +27,33 @@ body {
 
 /*Footer Styling*/
 .footer {
-  position:relative;
-  margin: 0;
-  padding: 30px 20px 20px;
+  margin: 25px 0 0 0;
+  background-color: rgb(213,231,242);
 }
 
 .footerlist {
   display: inline-block;
+  margin:auto;
+  padding-top: 20px;
 }
 
 .footertitle {
   font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .footer li {
   list-style-type: none;
+  margin: auto;
+  font-size: 14px;
 }
+
+.copyright {
+  margin-left: 40px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
 
 /*Navagation Styling*/
 
@@ -215,4 +226,44 @@ nav img {
   margin-right: 10%;
   font-size: 1.4em;
   width: 60%;
+}
+
+/* History Page Styling */
+.history h1 {
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.history h4 {
+  margin: 40px auto 0;
+  display: block;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.history p {
+  margin: 30px auto;
+  display: block;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.storyimg img{
+  height: 80px;
+  width: 80px;
+  margin: 20px 50px 20px 60px;
+
+}
+
+.storyimg {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.storylist {
+  margin: 0 220px 0 220px;
+  /*margin: 0 auto;*/
 }
