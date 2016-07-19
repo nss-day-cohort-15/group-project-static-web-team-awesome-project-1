@@ -245,6 +245,10 @@ nav img {
   width: 60%;
 }
 
+#hopethisworks {
+  clear: right;
+}
+
 /* History Page Styling */
 .history h1 {
   text-align: center;
