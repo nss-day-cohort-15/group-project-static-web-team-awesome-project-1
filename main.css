@@ -37,6 +37,7 @@ body {
 
 /*Footer Styling*/
 .footer {
+  clear: both;
   margin: 25px 0 0 0;
   background-color: rgb(213,231,242);
 }
@@ -91,7 +92,7 @@ nav ul{
 nav ul li{
   color:#696969;
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-left: 2%;
   margin-right: 2%;
   font-family: 'Courgette', cursive;
@@ -244,6 +245,10 @@ nav img {
   width: 60%;
 }
 
+#hopethisworks {
+  clear: right;
+}
+
 /* History Page Styling */
 .history h1 {
   text-align: center;
@@ -251,7 +256,7 @@ nav img {
 }
 
 .history h4 {
-  margin: 40px auto 0;
+  margin: 50px auto 0;
   display: block;
   width: 40%;
   text-align: center;
@@ -267,16 +272,28 @@ nav img {
   padding-bottom: 40px;
 }
 
-.storyimg img{
+/*.storyimg img{
   height: 80px;
   width: 80px;
   margin: 20px 50px 20px 60px;
+}*/
 
+.storyimg img{
+  height: 80px;
+  width: 80px;
+  margin-right: 75px;
+  /*margin: 20px 50px 20px 60px;*/
 }
 
 .storyimg {
   display: inline-block;
   list-style-type: none;
+  margin: 0 auto;
+}
+
+.storyimg-wrapper {
+  width: 50% ;
+  margin: 0 auto;
 }
 
 .storylist {
