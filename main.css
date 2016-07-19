@@ -37,6 +37,7 @@ body {
 
 /*Footer Styling*/
 .footer {
+  clear: both;
   margin: 25px 0 0 0;
   background-color: rgb(213,231,242);
 }
@@ -83,7 +84,7 @@ nav ul{
   float: right;
   display: inline-block;
   list-style-type: none;
-  width: 47.5%;
+  width: 50%;
   margin-top: 2.2%;
   margin-right: 0;
 }
@@ -91,7 +92,7 @@ nav ul{
 nav ul li{
   color:#696969;
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-left: 2%;
   margin-right: 2%;
   font-family: 'Courgette', cursive;
