@@ -62,7 +62,7 @@ nav ul{
   float: right;
   display: inline-block;
   list-style-type: none;
-  width: 55%;
+  width: 47.5%;
   margin-top: 2.2%;
   margin-right: 0;
 }
@@ -175,4 +175,44 @@ nav img {
   text-align: center;
   margin-top: 15%;
   font-size: 2em;
+}
+
+/*Styling for employees page*/
+
+.employees{
+  margin-left: 5%;
+  width: 90%;
+}
+
+.employees h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.employees img{
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-left: 5%;
+  height: 225px;
+  width: 17.5%;
+}
+
+.name{
+  margin-left: 7.5%;
+  width: 25%;
+}
+
+.name h3{
+  clear: both;
+  text-align: center;
+  display: inline-block;
+}
+
+.intro p{
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%;
+  font-size: 1.4em;
+  width: 60%;
 }
