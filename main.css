@@ -1,3 +1,8 @@
+/*SPA*/
+#awards_page, #dogs_page, #employees_page, #history_page{
+  display: none;
+}
+
 /* Wrapper */
 #wrapper {
   width: 90%;

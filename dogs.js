@@ -54,23 +54,23 @@ var dogs = [
   description: "Full of energy, smart, easy to train and loves to snuggle.",
   price: 80,
   url: "http://onlydogbreeds.com/images/puppiesLrg/poodle_toy_puppy.jpg",
-},
-{
-  name: "Bruce",
-  color: "Brown",
-  breed: "Bulldog",
-  description: "Playful, likes to sleep a lot and is just learning how to climb the stairs!",
-  price: 50,
-  url: "http://cdn.earthporm.com/wp-content/uploads/2015/05/bulldog-puppy-cute-dog-photography-37__605.jpg",
-},
-{
-  name: "Harley",
-  color: "White and Gray",
-  breed: "Husky",
-  description: "Curious, growing quickly and loves to wrestle.",
-  price: 45,
-  url: "https://s-media-cache-ak0.pinimg.com/564x/86/20/5d/86205db02c7f042eeecd363e6507fb6d.jpg",
-}
+  },
+  {
+    name: "Bruce",
+    color: "Brown",
+    breed: "Bulldog",
+    description: "Playful, likes to sleep a lot and is just learning how to climb the stairs!",
+    price: 50,
+    url: "http://cdn.earthporm.com/wp-content/uploads/2015/05/bulldog-puppy-cute-dog-photography-37__605.jpg",
+  },
+  {
+    name: "Harley",
+    color: "White and Gray",
+    breed: "Husky",
+    description: "Curious, growing quickly and loves to wrestle.",
+    price: 45,
+    url: "https://s-media-cache-ak0.pinimg.com/564x/86/20/5d/86205db02c7f042eeecd363e6507fb6d.jpg",
+  }
 ];
 
 // Input: One dog
@@ -85,9 +85,11 @@ function appendDog(dog) {
   dogTile.innerHTML += "<p>Description: " + dog.description + "</p>";
   dogTile.innerHTML += "<p>Price: $" + dog.price + "</p>";
 
-  document.querySelector(".main-content").appendChild(dogTile);
+  document.querySelector("#dog-content").appendChild(dogTile);
 }
 
 for (var i = 0; i < dogs.length; i++) {
   appendDog(dogs[i]);
 }
+
+console.log("This works");
